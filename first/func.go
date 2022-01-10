@@ -26,8 +26,20 @@ func fun3(a string, b int) (r1 int, r2 string) {
 	fmt.Println("a ", a)
 	fmt.Println("b ", b)
 
+	// 给有名称的返回值变量赋值
 	r1 = 2022
 	r2 = "Tinywan"
+	return
+}
+
+// (4) 多个返回值和类型，指定返回值名称
+func fun4(a string, b int) (r1, r2 int) {
+	fmt.Println("a ", a)
+	fmt.Println("b ", b)
+
+	// 给有名称的返回值变量赋值
+	r1 = 2022
+	r2 = 10086
 	return
 }
 

@@ -1,6 +1,3 @@
-# golang-study
-golang-study
-
 ## 数组
 
 - 固定 array
